@@ -1,4 +1,13 @@
 .App {
     display: flex;
+    flex-direction: column;
+}
+
+.App h1 {
+    font-weight: bold;
+}
+
+.Cards {
+    display: flex;
     flex-wrap: wrap;
 }
